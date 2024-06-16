@@ -51,6 +51,14 @@ python Data-extract.py
 This script might take few hours to run. It will divide your data into two files namely, train and val in the ratio of 90:10 and also create another
 file which contains all the characters that occurred in the dataset.
 
-After these files are created, you can go ahead and run all the cells in the GPT-V1 ipynb file.
+After this is done, you need to do one more thing if you are using a virtual environment. You need to create a new ipykernel for your virtual environment. To do that, simply run this command in your terminal after navigating to your project folder ( where your venv is activated). Let's suppose my venv name is cuda and display name is also cuda:
+
+``` python
+python -m ipykernel install --user --name=cuda --display-name "cuda"
+```
+
+Now, once this kernel is installed, you can open GPT-V1 in jupyter notebook and then instead of using Python 3 kernel, use the kernel named cuda.
+
+THen, you can go ahead and run all the cells in the GPT-V1 ipynb file.
 
 
