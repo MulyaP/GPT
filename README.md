@@ -1,4 +1,4 @@
-# GPT
+# GPT V1
 
 This is a generative transformer model that I build in order to understand how transformers work. I have used openwebtext dataset to train my model and a decoder-only transformer architecture.
 It do not perform great as my laptop is not capable enough to handle expensive computations. However, you can feel free to play with hyperparameters as you like. As per my observation, 
