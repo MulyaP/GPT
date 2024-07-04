@@ -1,9 +1,10 @@
 # GPT V1
 
+(Note: this is the first version of the model. Second version can be found [here](https://github.com/MulyaP/GPT-V2)
+
 This is a generative transformer model that I build in order to understand how transformers work. I have used openwebtext dataset to train my model and a decoder-only transformer architecture.
 It do not perform great as my laptop is not capable enough to handle expensive computations. However, you can feel free to play with hyperparameters as you like. As per my observation, 
-increasing the value of n_layers, n_head, n_embd, block_size and batch_size might significantly improve the model performance. The values I have used are the upper limit for my device but you 
-can change them as per your desire. Although be cautious while doing that as making the model more complex than your system's capability might lead to system crash and memory errors.
+increasing the value of n_layers, n_head, n_embd, block_size and batch_size might significantly improve the model performance. The values I have used are the upper limit for my device but you can change them as per your desire. Although be cautious while doing that as making the model more complex than your system's capability might lead to system crash and memory errors.
 Below I have explained the setup process if you wish to run this model on your device.
 
 ## Installation
